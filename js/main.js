@@ -21,9 +21,6 @@ const play = (e) => {
       modal.style.display = 'none'
     }
   }
-  //   getWinner(playerChoice, computerChoice)
-  console.log(playerChoice, computerChoice)
-  console.log(winner)
 }
 
 // Get computers choice
@@ -43,9 +40,9 @@ const getWinner = (p, c) => {
   if (p === c) {
     return 'draw'
   } else if (
-    (p === 'rock' && c === 'paper') ||
-    (p === 'paper' && c === 'scissors') ||
-    (p === 'scissors' && c === 'rock')
+    (p === 'rock' && c === 'Paper') ||
+    (p === 'paper' && c === 'Scissors') ||
+    (p === 'scissors' && c === 'Rock')
   ) {
     return 'computer'
   } else {
