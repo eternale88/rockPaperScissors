@@ -8,7 +8,7 @@ A rock paper scissors game that  I  built with HTML5, CSS3, and Vanilla JavaScri
 
 ## Motivation
 
-To learn more about and grow my skills in frontend development and DOM manipulation. 
+To learn more about and grow my skills in frontend development and DOM manipulation and have fun. 
 
 ## Installation
 
